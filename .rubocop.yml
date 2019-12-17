@@ -1,0 +1,79 @@
+AllCops:
+  Exclude:
+    - 'config/**/*'
+    - 'vendor/**/*'
+    - 'tmp/**/*'
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'Rakefile'
+    - 'Gemfile'
+    - 'lib/**/*'
+    - 'node_modules/**/*'
+    - 'spec/**/*'
+    - 'app/views/shared/icons/**/*'
+  TargetRubyVersion: 2.5
+
+Style/RedundantSelf:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/LeadingCommentSpace:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/GuardClause:
+  Exclude:
+    - 'app/controllers/application_controller.rb'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/**'
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'test/**/*.rb'
+
+Metrics/MethodLength:
+  Max: 60
+
+Metrics/LineLength:
+  Max: 100
+
+Metrics/ClassLength:
+  Max: 260
+
+Metrics/AbcSize:
+  Max: 25
+
+Metrics/AbcSize:
+  Max: 25
+
+Metrics/ModuleLength:
+  Max: 150
+
+Documentation:
+  Enabled: false
