@@ -11,6 +11,8 @@ gem 'graphql', '>= 1.7.14'
 gem 'awesome_print'
 gem 'rack-cors'
 gem 'rubocop', require: false
+gem 'devise'
+gem 'simple_token_authentication', '~> 1.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

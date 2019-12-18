@@ -7,5 +7,6 @@ module Types
     def products
       Resolvers::Products.all_products
     end
+
   end
 end
