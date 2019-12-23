@@ -13,6 +13,7 @@ gem 'rack-cors'
 gem 'rubocop', require: false
 gem 'devise'
 gem 'simple_token_authentication', '~> 1.0'
+gem 'faker', '~> 1.8', '>= 1.8.7'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
