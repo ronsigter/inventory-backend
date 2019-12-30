@@ -20,6 +20,14 @@ module Types
       argument :price, Float, required: true
     end
 
+    field :create_invoice, Types::Models::Invoice, null: false do
+      description "Creates new Invoice"
+
+      argument :invoice_number, String, required: true
+      argument :store_id, ID, required: true
+      argument :product_ids, [ID], required: true
+    end
+
     def login(**arguments)
       Resolvers::Users.login(arguments)
     end
@@ -30,6 +38,10 @@ module Types
 
     def create_product(**arguments)
       Resolvers::Products.create_product(arguments)
+    end
+
+    def create_invoice(**arguments)
+      Resolvers::Invoices.create_invoice(context[:current_user] ,arguments)
     end
   end
 end
