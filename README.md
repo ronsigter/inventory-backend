@@ -1,24 +1,17 @@
-# README
+# Project Description
+[Inventory App](https://inventory-frontend.herokuapp.com/)
+> Username: user@inventory.com
+> Password: password
+>
+>Note! Deployed in Heroku under free account. Just refresh if not loading to wakeup server and stop its idle
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Stacks Used:
+- [Backend](https://github.com/ronsigter/inventory-backend):
+  - Ruby on Rails
+  - GraphQL-ruby
+  - Docker
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Backend](https://github.com/ronsigter/inventory-frontend):
+  - React.js
+  - Ant Design
+  - Apollo
