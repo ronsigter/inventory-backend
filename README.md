@@ -15,3 +15,11 @@ Stacks Used:
   - React.js
   - Ant Design
   - Apollo
+
+# Setup
+1. `asdf install`
+2. `gem install bundler`
+3. `bundle install`
+4. `docker-compose up`
+5. `bundle exec rails db:create db:migrate db:seed`
+6. `bundle exec rails s -b 3001`
