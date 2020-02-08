@@ -10,7 +10,8 @@ module Resolvers
           invoice_number: arguments[:invoice_number],
           user_id: user.id,
           store_id: arguments[:store_id],
-          delivery_person_id: arguments[:delivery_person_id]
+          delivery_person_id: arguments[:delivery_person_id],
+          sales_person_id: arguments[:sales_person_id]
         )
 
         arguments[:products].each do |product|
