@@ -26,6 +26,7 @@ module Types
       argument :invoice_number, String, required: true
       argument :store_id, ID, required: true
       argument :delivery_person_id, ID, required: true
+      argument :sales_person_id, ID, required: true
       argument :products, [Types::Arguments::OrderForm], required: true
     end
 
