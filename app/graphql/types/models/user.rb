@@ -8,6 +8,7 @@ module Types
       field :first_name, String, null: true
       field :last_name, String, null: true
       field :authentication_token, String, null: true
+
     end
   end
 end
