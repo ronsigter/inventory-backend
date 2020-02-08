@@ -29,7 +29,7 @@ module Types
     end
 
     def sales_people
-      Resolvers::SalesPeople.all_sales_people
+      Resolvers::SalesPeople.all_sales_person
     end
 
   end
