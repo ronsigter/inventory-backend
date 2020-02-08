@@ -25,7 +25,7 @@ module Types
 
       argument :invoice_number, String, required: true
       argument :store_id, ID, required: true
-      argument :product_ids, [ID], required: true
+      argument :products, [Types::Arguments::OrderForm], required: true
     end
 
     def login(**arguments)

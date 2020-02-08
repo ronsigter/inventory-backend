@@ -6,6 +6,7 @@ module Types
       field :id, ID, null: true
       field :name, String, null: true
       field :address, String, null: true
+
     end
   end
 end

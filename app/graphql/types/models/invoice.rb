@@ -7,7 +7,7 @@ module Types
       field :invoice_number, String, null: true
       field :user, Types::Models::User, null: true
       field :store, Types::Models::Store, null: true
-      field :products, [Types::Models::Product], null: true
+      field :orders, [Types::Models::Order], null: true
 
     end
   end

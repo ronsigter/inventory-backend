@@ -8,6 +8,7 @@ module Types
       field :description, String, null: true
       field :quantity, Float, null: true
       field :price, Float, null: true
+
     end
   end
 end
