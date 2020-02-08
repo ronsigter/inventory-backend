@@ -12,6 +12,10 @@ module Types
       description "Get all Sales People"
     end
 
+    field :delivery_people, [Types::Models::DeliveryPerson], null: false do
+      description "Get all Sales People"
+    end
+
     field :invoices, [Types::Models::Invoice], null: false do
       description "Get all invoices"
     end
@@ -30,6 +34,10 @@ module Types
 
     def sales_people
       Resolvers::SalesPeople.all_sales_person
+    end
+
+    def delivery_people
+      Resolvers::DeliveryPeople.all_delivery_person
     end
 
   end
